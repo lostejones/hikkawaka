@@ -1,0 +1,30 @@
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+    0% {-webkit-transform:rotate(4deg);}
+    50% {-webkit-transform:rotate(-4deg);}
+    100% {-webkit-transform:rotate(4deg);}
+}
+
+/* firefox */
+@-moz-keyframes wiggle {
+    0% {-moz-transform:rotate(4deg);}
+    50% {-moz-transform:rotate(-4deg);}
+    100% {-moz-transform:rotate(4deg);}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+    0% {transform:rotate(4deg);}
+    50% {transform:rotate(-4deg);}
+    100% {transform:rotate(4deg);}
+}
+
+.wiggler {
+    -webkit-animation: wiggle 0.5s infinite;
+    -moz-animation: wiggle 0.5s infinite;
+    animation: wiggle 0.5s infinite;
+}
+
+.mothgirl {
+    padding: 20px;
+}
