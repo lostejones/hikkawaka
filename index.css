@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    background-image: url(hikkisis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+@font-face {
+  font-family: monospace;
+  src: url(./Roboto_mono/static/RobotoMono-Regular.ttf)
+}
+
+p {
+    font-family: monospace;
+    font-size: 30;
+    text-align:center;
+    color:white;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    width: 50%;
+    right: 25%;
+    left: 25%;
+    background-color:rgba(112, 112, 112, 0.8);
+    border:2px solid gray;
+    border-radius:4px;
+    
+  }
+  
+  .menu ul li div {
+    display:none;
+  }
+  
+  .menu ul li div:target {
+    display:block;
+  }
+
+h1 {
+  font-family: monospace;
+  text-align: right;
+  color:white;
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding:5px;
+}
+
+/*.collapsible {
+  font-family: monospace;
+  color:white;
+  text-align:center;
+  padding: 14 px 16 px;
+  text-decoration: none;
+}
+*/
+
+/*.collapsible:hover:not(.active) {
+  background-color:grey;
+}
+*/
+
+/*.content {
+  font-family: monospace;
+  text-align:right;
+  color:white;
+  position: left;
+  top: 10%;
+  width: 30%;
+  right: 80%;
+  background-color:rgba(112, 112, 112, 0.7);
+  border:2px solid gray;
+  border-radius:4px;
+}
+*/
+
+ul {
+  position: fixed;
+  top: 5px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 2px solid white;
+  padding: 5px;
+}
+
+li a {
+  font-family: monospace;
+  display: block;
+  color:white;
+  text-align:center;
+  padding: 14 px 16 px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+.active {
+  color: black;
+  background-color: white;
+}
+
