@@ -2,7 +2,7 @@ body {
     background-color: black;
     background-image: url(hikkisis.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
   }
@@ -45,6 +45,7 @@ h1 {
   bottom:0;
   right:0;
   padding:5px;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /*.collapsible {
@@ -78,11 +79,11 @@ h1 {
 ul {
   position: fixed;
   top: 5px;
-  width: 100%;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 li {
