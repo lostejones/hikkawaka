@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+  }
+
+@font-face {
+  font-family: monospace;
+  src: url(./Roboto_mono/static/RobotoMono-Regular.ttf)
+}
+
+p {
+    font-family: monospace;
+    text-align:left;
+    color:white;
+  }
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  color:white;
+}
+
+
+h2 {
+  font-family: monospace;
+  text-align: center;
+  color:white;
+}
+
